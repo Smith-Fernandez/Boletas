@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ar:ApplicationResponse xmlns:ar="urn:oasis:names:specification:ubl:schema:xsd:ApplicationResponse-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent><Signature Id="SignConosePeru" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>S9h5x6/IXpRS3lXB0xQqMtbEOdh6dfGdtizbHCm5rGE=</DigestValue></Reference></SignedInfo><SignatureValue>Cy7Tir1Atkcqcny9ivhmm/qqQTPuK0lyIvuT+dXrfqB3wBBbOkPilx2MeBrske2Df8tPMMJpoD8h+ZkWiQ15WnRVBnTlY5r21yfiSRmt3H6WpCwsm2uFzHI3kCbyVuMCnATclKb2FYAg0izkq0b9Ul0hV7RngnRP9C6FIPznmwmD6bfQ2jZvbs7ZR/JroNe3Ivc3+SjLI9bVDDBvOEGWymxWywcXYytNoSy35mgO27k6Y/ojEmyAljSZNANjt880TYWvd073vii9kH/1LQBbNKO48HmSw+MS9UKSifL5pnnkKWwSaKZJIbfFDKZOzBEh43YI614DpLHRtJzgpuH1yA==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIFQDCCBCigAwIBAgIIaog7yXEy2nowDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEucGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcNMjIwMjIyMjI0OTU2WhcNMjUwMjIxMjI0OTAwWjCB5jExMC8GA1UECQwoQ0FMLiBDSEFDQVJJTExBIE5STy4gMjUwIFVSQi4gU0FOVEEgQ1JVWjEjMCEGCSqGSIb3DQEJARYUc29wb3J0ZW9zZUBjb25vc2UucGUxFDASBgNVBAMMCzIwNjAyMzA1MDE2MRQwEgYDVQQLDAsyMDYwMjMwNTAxNjEuMCwGA1UECwwlVmFsaWRhZG8gcG9yIEFCQyBJREVOVElEQUQgRElHSVRBTCBFUjEUMBIGA1UECgwLQ09OT1NFIFMuQS4xDTALBgNVBAcMBExJTUExCzAJBgNVBAYTAlBFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo9semh7X4lW7sXDPl3vJ+8xlHBnf2hbMXaBiTfnXIgCmeIGSJA/XVNcgCW2OSWd9M5lRx6Xg6H2bk5ghx/NgXxVnG2Wrzd9Q1dZH92t93ro6qvyE533Ig30/PjJdepBIVyQJfMYhXf+BWvINopmq6sEJY+TEREgwIT8GkibpgEyLPtz68BtqBbaKRRnRSSZZ1Txv0yoshTgBnDk0YSJFxeSAWBAdgxK/5kfV7wHokx5s9Zjz9F4MPOsjBvOdIBfS3g5LV8j2kyDNRKF80fCyqK5ZSVVTWllikMBxnSjQRgSUt5jsQgACdGP6PubulDQ4U49v6nTh9UWel7cveUs3JQIDAQABo4IBjzCCAYswDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRdiFut62X7/mii5NlvPVdyou8rmTBnBggrBgEFBQcBAQRbMFkwNQYIKwYBBQUHMAKGKWh0dHA6Ly9jcnQubGxhbWEucGUvbGxhbWFwZXN0YW5kYXJkY2EuY2VyMCAGCCsGAQUFBzABhhRodHRwOi8vb2NzcC5sbGFtYS5wZTAfBgNVHREEGDAWgRRzb3BvcnRlb3NlQGNvbm9zZS5wZTBGBgNVHSAEPzA9MDsGDSsGAQQBg5d3AAEAAwEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly9sbGFtYS5wZS9yZXBvc2l0b3J5LzAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwOgYDVR0fBDMwMTAvoC2gK4YpaHR0cDovL2NybC5sbGFtYS5wZS9sbGFtYXBlc3RhbmRhcmRjYS5jcmwwHQYDVR0OBBYEFOnik/hKbgNTkxGLjizVdfgjNfeqMA4GA1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAQEAPAxlvk/r/Fo8MHNCWNYsKKa01jfjPB+tievYNNmeEXBd+gxWs4pPL9Ybpb8B9LZoVdAX3GZe2JpZn7guv1dUmx10NBG5wxYLshNwuD4r2FRUkeAhEbjmsy43wpy7QDhlrxeC3LO36gzBYUKkSOatvTdhVfEqzAm8pi7czfI+rcQHa4DQgVE31tnfdVAzG0gghgQbZVjGuUJR9+BlIZGJeaHbIyQHsbB91J707IeMJYf6xXokyrlZwF6CHbbEms0c8M1qDEcPkNay1ZNnocR4uua0hOx2Ob4kabHCpY8ygp361P6YXqYuyVB0qnrH5LsaYGc5RSyCQzFHDTBYOyAO8g==</X509Certificate></X509Data></KeyInfo></Signature></ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>1.0</cbc:CustomizationID>
+  <cbc:ID>96d76b39-774c-4c53-8e70-8f2eddddb982</cbc:ID>
+  <cbc:IssueDate>2024-02-26</cbc:IssueDate>
+  <cbc:IssueTime>10:52:00.91927</cbc:IssueTime>
+  <cbc:ResponseDate>2024-02-26</cbc:ResponseDate>
+  <cbc:ResponseTime>10:52:00.92927</cbc:ResponseTime>
+  <cac:SenderParty>
+    <cac:PartyLegalEntity>
+      <cbc:CompanyID schemeID="6" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo6">20601122406</cbc:CompanyID>
+    </cac:PartyLegalEntity>
+  </cac:SenderParty>
+  <cac:ReceiverParty>
+    <cac:PartyLegalEntity>
+      <cbc:CompanyID schemeID="6" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo6">20602305016</cbc:CompanyID>
+    </cac:PartyLegalEntity>
+  </cac:ReceiverParty>
+  <cac:DocumentResponse>
+    <cac:Response>
+      <cbc:ResponseCode listAgencyName="PE:SUNAT">0</cbc:ResponseCode>
+      <cbc:Description>La factura numero 20429324778-01-FF02-00101032, ha sido aceptada</cbc:Description>
+      <cac:Status>
+        <cbc:StatusReasonCode listURI="urn:pe:gob:sunat:cpe:see:gem:codigos:codigoretorno">4094</cbc:StatusReasonCode>
+        <cbc:StatusReason>La dirección completa y detallada del domicilio fiscal del emisor no cumple con el formato establecido - Detalle : Formato Incorrecto: 4094 (nodo: "cac:AddressLine/cbc:Line" valor: "Calle Los Antares 320.  Oficina 202.  Torre A.  Edificio el Nuevo Trigal")</cbc:StatusReason>
+      </cac:Status>
+    </cac:Response>
+    <cac:DocumentReference>
+      <cbc:ID>FF02-00101032</cbc:ID>
+      <cbc:IssueDate>2024-02-25</cbc:IssueDate>
+      <cbc:IssueTime>12:02:34</cbc:IssueTime>
+      <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+      <cac:Attachment>
+        <cac:ExternalReference>
+          <cbc:DocumentHash>kx4JupdTZQttB8bhAABu1CuwQlA=</cbc:DocumentHash>
+        </cac:ExternalReference>
+      </cac:Attachment>
+    </cac:DocumentReference>
+    <cac:IssuerParty>
+      <cac:PartyLegalEntity>
+        <cbc:CompanyID schemeID="6">20429324778</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+    </cac:IssuerParty>
+    <cac:RecipientParty>
+      <cac:PartyLegalEntity>
+        <cbc:CompanyID schemeID="6">10218447312</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+    </cac:RecipientParty>
+  </cac:DocumentResponse>
+</ar:ApplicationResponse>

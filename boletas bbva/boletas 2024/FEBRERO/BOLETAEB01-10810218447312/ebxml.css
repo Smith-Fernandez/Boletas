@@ -1,0 +1,349 @@
+BODY
+{
+    FONT-SIZE: 10px;
+    MARGIN: 5px;
+    COLOR: #000;
+    FONT-FAMILY: verdana,arial,helvetica,sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+TABLE
+{
+    BORDER-RIGHT: 0px;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px;
+}
+H1.SaltoDePagina
+{
+    PAGE-BREAK-AFTER: always
+}
+.T1
+{
+    FONT-WEIGHT: 900;
+    FONT-SIZE: 18px;
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    BACKGROUND-COLOR: #39c;
+    TEXT-ALIGN: center
+}
+.T2
+{
+    FONT-WEIGHT: 800;
+    FONT-SIZE: 16px;
+    TEXT-TRANSFORM: capitalize;
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    BACKGROUND-COLOR: #fff;
+    TEXT-ALIGN: center
+}
+.T3
+{
+    FONT-WEIGHT: 900;
+    FONT-SIZE: 14px;
+    COLOR: #fff;
+    FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+    BACKGROUND-COLOR: #4682b4;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+A
+{
+    FONT-SIZE: 11px;
+    FONT-STYLE: italic
+}
+A:link
+{
+    COLOR: #00f;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: #30c;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: red;
+    TEXT-DECORATION: underline
+}
+A:active
+{
+    BORDER-RIGHT: lime 1px dotted;
+    BORDER-TOP: lime 1px dotted;
+    BORDER-LEFT: lime 1px dotted;
+    COLOR: #0c9;
+    BORDER-BOTTOM: lime 1px dotted;
+    TEXT-DECORATION: none
+}
+.buttonbar
+{
+    BORDER-TOP: black 1px solid;
+    MARGIN-TOP: 6px;
+    PADDING-LEFT: 3px;
+    PADDING-TOP: 3px;
+    HEIGHT: 28px;
+    BACKGROUND-COLOR: #fff
+}
+SELECT
+{
+    BORDER-RIGHT: #ccc 1px solid;
+    BORDER-TOP: #ccc 1px solid;
+    FONT-SIZE: 9px;
+    BORDER-LEFT: #ccc 1px solid;
+    BORDER-BOTTOM: #ccc 1px solid;
+    FONT-FAMILY: verdana,arial,helvetica,sans-serif
+}
+.form-table
+{
+    BORDER-RIGHT: #4682b4 1px solid;
+    BORDER-TOP: #4682b4 1px solid;
+    BORDER-LEFT: #4682b4 1px solid;
+    BORDER-BOTTOM: #4682b4 1px solid;
+}
+.form-table-2
+{
+    BORDER-RIGHT: #4682b4 1px solid;
+    BORDER-TOP: #4682b4 1px solid;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: #4682b4 1px solid;
+    BORDER-BOTTOM: #4682b4 0px solid
+}
+.form-table-3
+{
+    BORDER-RIGHT: #4682b4 1px solid;
+    BORDER-TOP: #4682b4 0px solid;
+    BORDER-LEFT: #4682b4 1px solid;
+    BORDER-BOTTOM: #4682b4 1px solid
+}
+
+.form-table-4
+{
+    BORDER-RIGHT: #4682b4 0px solid;
+    BORDER-TOP: #4682b4 0px solid;
+    BORDER-LEFT: #4682b4 0px solid;
+    BORDER-BOTTOM: #4682b4 1px solid
+}
+
+.form-button
+{
+    BORDER-RIGHT: #69c 1px solid;
+    BORDER-TOP: #69c 1px solid;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: #69c 1px solid;
+    CURSOR: hand;
+    BORDER-BOTTOM: #69c 1px solid
+}
+.form-button-hover
+{
+    BORDER-RIGHT: #6699cc 1px solid;
+    BORDER-TOP: #fff 1px solid;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: #fff 1px solid;
+    BORDER-BOTTOM: #69c 1px solid
+}
+.form-text
+{
+    BORDER-RIGHT: #ccc 1px solid;
+    BORDER-TOP: #ccc 1px solid;
+    BORDER-LEFT: #ccc 1px solid;
+    BORDER-BOTTOM: #ccc 1px solid;
+    FONT-FAMILY: verdana,Arial
+}
+.form-text-disabled
+{
+    BORDER-RIGHT: #e9e9e9 1px solid;
+    BORDER-TOP: #e9e9e9 1px solid;
+    BORDER-LEFT: #e9e9e9 1px solid;
+    BORDER-BOTTOM: #e9e9e9 1px solid;
+    FONT-FAMILY: verdana,Arial;
+    BACKGROUND-COLOR: #f4f4f4
+}
+.form-radio
+{
+    VERTICAL-ALIGN: middle
+}
+P.caratula
+{
+    FONT-SIZE: 14px;
+    MARGIN-LEFT: 5px;
+    MARGIN-RIGHT: 30px;
+    TEXT-ALIGN: justify
+}
+P.piepagina
+{
+    BORDER-TOP: navy 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    FONT-STYLE: italic;
+    TEXT-ALIGN: left
+}
+A.alpha
+{
+    COLOR: #000;
+    TEXT-DECORATION: none
+}
+TR.alpha
+{
+    BACKGROUND-COLOR: #69c
+}
+TD.alpha
+{
+    BACKGROUND-COLOR: #69c
+}
+TD.alpha-total
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px
+}
+.alpha-neg-alert
+{
+    COLOR: #f00
+}
+.alpha-pos-alert
+{
+    COLOR: #007f00
+}
+A.beta
+{
+    COLOR: #000;
+    TEXT-DECORATION: none
+}
+TR.beta
+{
+    BACKGROUND-COLOR: #b6cbeb
+}
+TD.beta
+{
+    BACKGROUND-COLOR: #b6cbeb
+}
+TH.beta
+{
+    BACKGROUND-COLOR: #b6cbeb
+}
+.beta-neg-alert
+{
+    COLOR: #ff0000
+}
+.beta-pos-alert
+{
+    COLOR: #007f00
+}
+A.gamma
+{
+    COLOR: #000;
+    TEXT-DECORATION: none
+}
+TR.gamma
+{
+    BACKGROUND-COLOR: #eee
+}
+TD.gamma
+{
+    BACKGROUND-COLOR: #eee
+}
+TD.gamma-total
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    BACKGROUND-COLOR: #ffffe0
+}
+TD.gamma-importeTotal
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    BACKGROUND-COLOR: #b6cbeb;
+}
+.gamma-neg-alert
+{
+    COLOR: #ff0000
+}
+.gamma-pos-alert
+{
+    COLOR: #007f00
+}
+A.bg
+{
+    COLOR: #000;
+    TEXT-DECORATION: none
+}
+TBODY.bg
+{
+    BACKGROUND-COLOR: #fff
+}
+TR.bg
+{
+    BACKGROUND-COLOR: #fff
+}
+TD.bg
+{
+    BACKGROUND-COLOR: #fff
+}
+SELECT.bg
+{
+    FONT-SIZE: 11px
+}
+.bg7
+{
+    FONT-SIZE: 7pt;
+    BACKGROUND-COLOR: #fff
+}
+.bg-neg-alert
+{
+    COLOR: #f00
+}
+.bg-pos-alert
+{
+    COLOR: #007f00
+}
+.bg-disabled
+{
+    COLOR: #b9b9b9
+}
+A.bgn
+{
+    FONT-WEIGHT: 900;
+    COLOR: #000;
+    TEXT-DECORATION: none
+}
+A.bgn:hover
+{
+    FONT-WEIGHT: 900;
+    COLOR: #960;
+    TEXT-DECORATION: underline
+}
+TR.bgn
+{
+    FONT-WEIGHT: 900;
+    BACKGROUND-COLOR: #fff;	
+}
+TD.bgn
+{
+    FONT-WEIGHT: 900;
+    BACKGROUND-COLOR: #fff;
+	BORDER-TOP:1px solid black;
+	BORDER-RIGHT:1px solid black;
+	BORDER-BOTTOM:1px solid black;
+	BORDER-LEFT:1px solid black;
+}
+.bgn-neg-alert
+{
+    FONT-WEIGHT: 900;
+    COLOR: #f00
+}
+.bgn-pos-alert
+{
+    FONT-WEIGHT: 900;
+    COLOR: #007f00
+}
+.bgn-required
+{
+    FONT-WEIGHT: 900;
+    COLOR: #0000cc
+}
+P.titulografico
+{
+    FONT-WEIGHT: bold
+}
